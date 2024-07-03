@@ -9,8 +9,19 @@ pip install -r requirements.txt
 
 ## base de datos
 
-Se debe crear una base de datos postgresql o en su defecto cargar el archivo db.sql
-que se encuentra en siguiente enlace 
+Se debe crear una base de datos Postgresql con las siguientes especificacines de tabla
+
+nombre de la tabla : employes
+
+campos: 
+
+id = serial
+name  = text
+department = text
+email = varchar
+
+
+o en su defecto cargar el archivo db.sql (copia de seguridad) que se encuentra en siguiente enlace 
 
 https://drive.google.com/file/d/1ssV_NVkGZ5qQY3NqKuwbCH4Z5ZaP9ifx/view?usp=sharing
 
