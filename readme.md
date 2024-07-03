@@ -15,10 +15,10 @@ nombre de la tabla : employes
 
 campos: 
 
-id = serial
-name  = text
-department = text
-email = varchar
+- id = serial
+- name  = text
+- department = text
+- email = varchar
 
 
 o en su defecto cargar el archivo db.sql (copia de seguridad) que se encuentra en siguiente enlace 
